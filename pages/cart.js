@@ -72,7 +72,7 @@ export default function Cart() {
                   const src = urlFor(pizza.image).url();
 
                   return (
-                    <tr kry={i}>
+                    <tr key={i}>
                       <td className={css.imageTd}>
                         <Image
                           loader={() => src}
