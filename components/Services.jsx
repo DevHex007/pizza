@@ -29,7 +29,7 @@ export default function Services() {
                         <Image src={s2} alt='second feature' objectFit='cover' layout='intrinsic' />
                     </div>
                     <span>Easy to Order</span>
-                    <span>Delivery that's always on time even faster</span>
+                    <span>Delivery that is always on time even faster</span>
                 </div>
                 
                 <div className={css.feature}>
